@@ -3,7 +3,7 @@ import random
 def get_user_choice():
     user_choice = input("Rock, paper, or scissors? ").lower()
     while user_choice not in ['rock', 'paper', 'scissors']:
-        print("Invalid choice. Try again.")
+        print("hey come on, at least type your sentenses correctly! :<")
         user_choice = input("Rock, paper, or scissors? ").lower()
     return user_choice
 
